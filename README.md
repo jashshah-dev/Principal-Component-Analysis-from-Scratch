@@ -46,5 +46,34 @@ The Python code in this repository is organized as follows:
 
 ## Results
 
+![image](https://github.com/jashshah-dev/Principal-Component-Analysis-from-Scratch/assets/132673402/c192684a-ae39-437e-aba0-1fccdd9d2ccf)
+![image](https://github.com/jashshah-dev/Principal-Component-Analysis-from-Scratch/assets/132673402/12b41102-fc17-4fa9-8eaa-48431abe0674)
+![image](https://github.com/jashshah-dev/Principal-Component-Analysis-from-Scratch/assets/132673402/ca6e58f5-2d7f-401a-bbc8-dba067e145b4)
+
+• Have ran K means algorithm on dataset after applying PCA
+• The number of columns after performing dimensionality reduction are 373
+• Have plotted graphs for Before and After PCA and we can infer.
+• Within Sum of Square Errors
+• The WSS reduced after PCA and can be shown from the box plot
+• The median of WSS is lower for Clustering after PCA
+• Silheoutte Analysis
+• Silhouette analysis is a method used to evaluate the quality of clustering results by measuring how
+well each data point fits within its assigned cluster. The analysis provides a silhouette score for each
+data point, which indicates the degree of similarity of that point to its own cluster compared to other
+clusters.
+• The silhouette score ranges from -1 to 1, where a score of -1 indicates that the data point is assigned
+to the wrong cluster, a score of 0 indicates that the data point is near the decision boundary between
+two clusters, and a score of 1 indicates that the data point is well- clustered and belongs to its own
+cluster.
+• We can infer there is a slight decrease in the silheoutte Score which indicates there might be Loss of
+Information after performing PCA
+• We can increase the covered Variance to 97 percent or more and increase the number of PC’s to increase
+the silheoutte score
+• Run Time From the graphs it’s clearly visible the Run time decreases after applying PCA because
+the number of dimensions reduce.
+
+
+
+
 
 
